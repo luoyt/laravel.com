@@ -23,9 +23,10 @@ function markdown($text) {
 	return (new ParsedownExtra)->text($text);
 }
 
-get('/', function() {
+/*get('/', function() {
 	return view('marketing');
-});
+});*/
 
+get('/', 'DocsController@showRootPage');
 get('docs', 'DocsController@showRootPage');
 get('docs/{version}/{page?}', 'DocsController@show');
