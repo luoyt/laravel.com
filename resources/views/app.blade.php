@@ -22,7 +22,7 @@
 		<div class="container">
 			<a href="/" class="brand">
 				<img src="/assets/img/laravel-logo.png" height="30" alt="Laravel logo">
-				Laravel 中文文档
+				Laravel
 			</a>
 
 			<div class="responsive-sidebar-nav">
